@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>RUBIK Pi Ubuntu24.04 user Guide Blog</title>
+        <link>https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/blog</link>
+        <description>RUBIK Pi Ubuntu24.04 user Guide Blog</description>
+        <lastBuildDate>Tue, 13 May 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome to RUBIK Pi Blog]]></title>
+            <link>https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/blog/welcome-2024</link>
+            <guid>https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/blog/welcome-2024</guid>
+            <pubDate>Tue, 13 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the RUBIK Pi blog platform!]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the RUBIK Pi blog platform!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-contribute">How to Contribute<a href="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/blog/welcome-2024#how-to-contribute" class="hash-link" aria-label="Direct link to How to Contribute" title="Direct link to How to Contribute">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="creating-blog-posts">Creating Blog Posts<a href="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/blog/welcome-2024#creating-blog-posts" class="hash-link" aria-label="Direct link to Creating Blog Posts" title="Direct link to Creating Blog Posts">​</a></h3>
+<ol>
+<li>Add your blog post as a Markdown file in the <code>blog</code> directory</li>
+<li>Use the following naming convention: <code>YYYY-MM-DD-your-post-title.md</code></li>
+<li>For posts with multiple images, create a folder: <code>YYYY-MM-DD-your-post-title/</code></li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blog-post-structure">Blog Post Structure<a href="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/blog/welcome-2024#blog-post-structure" class="hash-link" aria-label="Direct link to Blog Post Structure" title="Direct link to Blog Post Structure">​</a></h3>
+<p>Each blog post should include:</p>
+<ul>
+<li>A clear title and description</li>
+<li>Your team information</li>
+<li>Project details and technical implementation</li>
+<li>Results and lessons learned</li>
+<li>Images and diagrams (when applicable)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="adding-images">Adding Images<a href="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/blog/welcome-2024#adding-images" class="hash-link" aria-label="Direct link to Adding Images" title="Direct link to Adding Images">​</a></h3>
+<p>You can include images in your blog posts:</p>
+<ul>
+<li>Place images in the same directory as your blog post</li>
+<li>Use relative paths to reference them</li>
+<li>Example: <code>![Robot Design](./robot-design.jpg)</code></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tags-and-authors">Tags and Authors<a href="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/blog/welcome-2024#tags-and-authors" class="hash-link" aria-label="Direct link to Tags and Authors" title="Direct link to Tags and Authors">​</a></h3>
+<ul>
+<li>Add relevant tags to help others find your content</li>
+<li>Team members can be added to <code>authors.yml</code></li>
+<li>Use tags like: <code>[first, rubik-pi, showcase, tutorial]</code></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="interactive-content">Interactive Content<a href="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/blog/welcome-2024#interactive-content" class="hash-link" aria-label="Direct link to Interactive Content" title="Direct link to Interactive Content">​</a></h3>
+<p>You can create interactive content using MDX:</p>
+<ul>
+<li>Add interactive diagrams</li>
+<li>Include code demonstrations</li>
+<li>Create project timelines</li>
+<li>Showcase team achievements</li>
+</ul>
+<p>We encourage all FIRST teams to share their RUBIK-Pi experiences and help build a vibrant community knowledge base. Your contributions will inspire and help other teams in their robotics journey!</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

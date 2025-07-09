@@ -1,1 +1,0 @@
-# rubikpi-ubuntu-user-manual-test-en.github.io
