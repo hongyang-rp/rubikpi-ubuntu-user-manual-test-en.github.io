@@ -9,7 +9,6 @@ node_modules/
 .cache-loader
 .yarn
 
-
 # Misc
 .DS_Store
 .env.local
