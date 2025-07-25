@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to RUBIK Pi Blog","permalink":"/rubikpi-ubuntu-user-manual-test-en.github.io/blog/welcome-2024","unlisted":false,"date":"2025-05-13T00:00:00.000Z"}]}')}}]);

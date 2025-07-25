@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1903],{1912:u=>{u.exports=JSON.parse('{"blogBasePath":"/rubikpi-ubuntu-user-manual-test-en.github.io/blog","blogTitle":"Blog","authorsListPath":"/rubikpi-ubuntu-user-manual-test-en.github.io/blog/authors"}')}}]);
