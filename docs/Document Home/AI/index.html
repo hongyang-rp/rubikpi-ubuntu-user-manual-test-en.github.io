@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">Artificial Intelligence | RUBIK Pi Ubuntu24.04 user Guide</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/docs/Document Home/AI"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Artificial Intelligence | RUBIK Pi Ubuntu24.04 user Guide"><meta data-rh="true" name="description" content="This chapter introduces how to use the Qualcomm AI Runtime SDK. The SDK enables AI developers to easily leverage Qualcomm&#x27;s high-performance hardware for machine learning inference. It supports running or converting models trained with popular frameworks like TensorFlow, PyTorch, ONNX, and LiteRT, allowing them to run efficiently on the RUBIK Pi 3."><meta data-rh="true" property="og:description" content="This chapter introduces how to use the Qualcomm AI Runtime SDK. The SDK enables AI developers to easily leverage Qualcomm&#x27;s high-performance hardware for machine learning inference. It supports running or converting models trained with popular frameworks like TensorFlow, PyTorch, ONNX, and LiteRT, allowing them to run efficiently on the RUBIK Pi 3."><link data-rh="true" rel="icon" href="/rubikpi-ubuntu-user-manual-test-en.github.io/img/favicon.png"><link data-rh="true" rel="canonical" href="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/docs/Document Home/AI"><link data-rh="true" rel="alternate" href="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/docs/Document Home/AI" hreflang="en"><link data-rh="true" rel="alternate" href="https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/docs/Document Home/AI" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Document Home","item":"https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/docs/category/document-home"},{"@type":"ListItem","position":2,"name":"Artificial Intelligence","item":"https://rubikpi-ubuntu-user-manual-test-en.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/docs/Document Home/AI"}]}</script><link rel="alternate" type="application/rss+xml" href="/rubikpi-ubuntu-user-manual-test-en.github.io/blog/rss.xml" title="RUBIK Pi Ubuntu24.04 user Guide RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/rubikpi-ubuntu-user-manual-test-en.github.io/blog/atom.xml" title="RUBIK Pi Ubuntu24.04 user Guide Atom Feed"><link rel="stylesheet" href="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/css/styles.3ab308d8.css">
-<script src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/js/runtime~main.c5b5f802.js" defer="defer"></script>
+<script src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/js/runtime~main.92a72a77.js" defer="defer"></script>
 <script src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/js/main.d5cf0e10.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -61,10 +61,8 @@
 </li>
 <li>
 <p>Open the command-line interface.</p>
-</li>
-</ol>
 <div class="tabs-container tabList__CuJ"><ul role="tablist" aria-orientation="horizontal" class="tabs"><li role="tab" tabindex="0" aria-selected="true" class="tabs__item tabItem_LNqP tabs__item--active">Windows</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">macOS/Linux</li></ul><div class="margin-top--md"><div role="tabpanel" class="tabItem_Ymn6"><p>After the installation is complete, open the <a href="https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html" target="_blank" rel="noopener noreferrer">Anaconda</a> prompt window through the Start menu.</p></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><p>After the installation is complete, open a new shell.</p></div></div></div>
-<ol start="3">
+</li>
 <li>
 <p>Set up a Python virtual environment for AI Hub. In the opened command-line interface, input the following commands:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">conda activate</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">conda create python=3.10 -n qai_hub</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">conda activate qai_hub</span><br></span></code></pre></div></div>
@@ -148,7 +146,7 @@
 <table><thead><tr><th>Sample Application</th><th>Required Model</th><th>Required Label File</th></tr></thead><tbody><tr><td>image-classification-LiteRT-from-camera/file</td><td>inceptionv3.dlc</td><td>classification.labels</td></tr><tr><td>object-detection-LiteRT-from-camera/file</td><td>yolonas.dlc</td><td>yolonas.labels</td></tr></tbody></table>
 <ol>
 <li>
-<p>Click to download the compressed package of model files and label files required for the sample application <em>ai_sample_app_model_label.zip</em>.</p>
+<p>Click to download the compressed package <a href="https://thundercomm.s3.dualstack.ap-northeast-1.amazonaws.com/uploads/web/rubik-pi-3/tools/ai_sample_app_model_label.zip" target="_blank" rel="noopener noreferrer"><em>ai_sample_app_model_label.zip</em></a> of model files and label files required for the sample application .</p>
 </li>
 <li>
 <p>Use the following command to push all model files and label files from the compressed package to the <em>opt</em> directory of the device.</p>
@@ -163,7 +161,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-5-b5eee26c70ad2eb4d0e851197c68f4f9.png" width="1397" height="544" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push resnet101-resnet101-w8a8.tflite /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push classification.labels /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
@@ -180,7 +178,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-6-f5f0a997438d579f0a6448df50765678.png" width="1395" height="542" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push yolov8_det_quantized.tflite /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push yolov8.labels /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
@@ -197,7 +195,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-7-bcfdc6e7a4f2e3a12cfd030cadbce793.png" width="1388" height="594" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push deeplabv3_plus_mobilenet_quantized.tflite /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push deeplabv3_resnet50.labels  /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
@@ -214,7 +212,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-8-ab4b44d5c06fcd984d6acf66dceb4446.png" width="1396" height="551" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push hrnet_pose_quantized.tflite /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push hrnet_pose.labels  /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
@@ -232,7 +230,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-9-e51bfb176c3568ef4bac19b538d01165.png" width="1400" height="562" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push resnet101-resnet101-w8a8.tflite /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push classification.labels /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
@@ -249,7 +247,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-10-017210c255fcf35f7e7dcc6af0e52a4f.png" width="1403" height="543" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push yolov8_det_quantized.tflite /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push yolov8.labels /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
@@ -266,7 +264,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-11-ab85dc1bf022363c2531971ef781a172.png" width="1397" height="530" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push deeplabv3_plus_mobilenet_quantized.tflite /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push deeplabv3_resnet50.labels  /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
@@ -283,7 +281,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-12-5fceacfb0d48fabdd34d975e92e7b017.png" width="1394" height="517" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push hrnet_pose_quantized.tflite /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push hrnet_pose.labels  /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
@@ -302,7 +300,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-13-b688093195ae78e15c119e8974e89698.png" width="1392" height="556" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push inceptionv3.dlc /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push classification.labels /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
@@ -319,7 +317,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-14-3eb09f7879e9a48b5437ba384bf2501f.png" width="1397" height="537" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push yolonas.dlc /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push yolonas.labels /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
@@ -337,7 +335,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-15-4184e062f9a4fd91c6fa19c0aca552fb.png" width="1396" height="576" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push inceptionv3.dlc /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push classification.labels /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
@@ -354,7 +352,7 @@
 <p><img decoding="async" loading="lazy" src="/rubikpi-ubuntu-user-manual-test-en.github.io/assets/images/diagram-16-1eea0df2137651b9aa68c4e27d3df438.png" width="1392" height="525" class="img_ev3q"></p>
 <ul>
 <li>
-<p>Push the necessary model files and label files from the model compression package to the <em>/opt</em> directory:</p>
+<p>Push the necessary model files and label files from the model compressed package to the <em>/opt</em> directory:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push yolonas.dlc /opt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">adb push yolonas.labels /opt</span><br></span></code></pre></div></div>
 </li>
 <li>
