@@ -26,7 +26,7 @@ RUBIK Pi 3 is compatible with various systems, such as Qualcomm Linux, Debian 13
 </TabItem>
 <TabItem value="Intro" label="Introduction to the board">
 
-![](../images/image-148.png)
+![](../images/data-3.svg)
 
 ![](../images/image-2.png)
 </TabItem>
