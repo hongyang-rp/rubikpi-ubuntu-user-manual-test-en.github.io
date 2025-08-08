@@ -39,5 +39,3 @@ RUBIK Pi 3 is compatible with various systems, such as Qualcomm Linux, Debian 13
 | Update Software     | <p>1. Download the image.</p><p>2. Put the device into Emergency Download (EDL) mode.</p><p>3. Configure Universal Flash Storage (UFS) and flash the Configuration Data Table (CDT).</p><p>4. Flash using the Qualcomm Download (QDL) tool.</p> |
 | Set Up the Device   | <p>1. Set up the debug UART.</p><p>2. Verify the Ubuntu 24.04 version.</p><p>3. Connect to the network, connect to SSH, and connect an HDMI display.</p> |
 | Run Demo Applications | Run multimedia and AI demo applications.                                |
-</TabItem>
-</Tabs> 
