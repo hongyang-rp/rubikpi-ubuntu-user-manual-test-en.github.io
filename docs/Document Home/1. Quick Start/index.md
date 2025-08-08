@@ -32,6 +32,8 @@ RUBIK Pi 3 is compatible with various systems, such as Qualcomm Linux, Debian 13
 </TabItem>
 <TabItem value="typflow" label="Typical workflow">
 
+![](../images/20250728-143657.jpg)
+
 
 | Task                | Operation                                                                 |
 |---------------------|--------------------------------------------------------------------------|
