@@ -18,25 +18,30 @@ config:
 graph TD
     Title[📋**Explore Options**]:::titleStyle
     Title --> B["**CHOOSE YOUR PATH**"]:::rectStyle
-    B -->|Quick Start| C["**Run Sample Applications** 
-     Pre-built demos & benchmarks
-     ****Best for: Beginners****"]:::rectStyle
+    B -->|Quick Start| C["🔗**Run Sample Applications**
+    Pre-built demos & benchmarks
+    ****Best for: Beginners****
+    *(click to open)*"]:::rectStyle
 
-    B -->|ML Prototyping| D["**Edge Impulse**
+    B -->|ML Prototyping| D["🔗**Edge Impulse**
     No-code ML training
-    Best for: Custom models"]:::rectStyle
+    ****Best for: Custom models****
+    *(click to open)*"]:::rectStyle
 
-    B -->|Robotics| E["**Robot Development**
+    B -->|Robotics| E["🔗**Robot Development**
     ROS & sensor integration
-    Best for: Robotics projects"]:::rectStyle
+    ****Best for: Robotics projects****
+    *(click to open)*"]:::rectStyle
 
-    B -->|AI Optimization| F["**IMSDK-TFLite-AIMET**
+    B -->|AI Optimization| F["🔗**IMSDK-TFLite-AIMET**
     Python/C AI development
-    Best for: Performance apps"]:::rectStyle
+    ****Best for: Performance apps****
+    *(click to open)*"]:::rectStyle
 
-    B -->|Dev Setup| G["**VSCode IDE Setup**
+    B -->|Dev Setup| G["🔗**VSCode IDE Setup**
     Full development environment
-    Best for: Pro developers"]:::rectStyle
+    ****Best for: Pro developers****
+    *(click to open)*"]:::rectStyle
 
     C -->|Demo Goals| C1["See AI capabilities
     Benchmark performance
@@ -175,21 +180,5 @@ Full IDE, remote dev, debugging, and team collab. Set up VSCode for embedded Lin
 > ### 💡 **Pro Tips**
 > - For hardware speed boosts (NPU/DSP), check [Qualcomm IM SDK documentation](https://docs.qualcomm.com/bundle/publicresource/topics/80-70018-50/overview.html).
 > - Stuck? Try [Edge Impulse Troubleshooting Guide](https://docs.edgeimpulse.com/docs/troubleshooting) or hit up the dev community. (Need TC community link).
-
----
-
-## 📌 **References**
-
-- [Sample Applications section](https://docs.qualcomm.com/bundle/publicresource/topics/80-70018-50/ai-ml-sample-applications.html)
-- [Edge Impulse Studio](https://studio.edgeimpulse.com)
-- [Edge Impulse Linux SDK Documentation](https://docs.edgeimpulse.com/docs/edge-impulse-linux)
-- [Crash Detection Project Example](https://docs.edgeimpulse.com/docs/tutorials/audio-classification)
-- [Qualcomm Robotics Development Kit Documentation](https://docs.qualcomm.com/bundle/publicresource/topics/80-90441-2/introduction_1.html?product=1601111740057201&facet=Intelligent_Robotics_Function.SDK.2.0)
-- [Sample Apps Guide](https://docs.qualcomm.com/bundle/publicresource/topics/80-90441-2/qir-sdk-sample-applications_3.html?product=1601111740057201&facet=Intelligent_Robotics_Function.SDK.2.0)
-- [Qualcomm IM SDK documentation](https://docs.qualcomm.com/bundle/publicresource/topics/80-70018-50/overview.html)
-- [AIMET documentation](https://github.com/quic/aimet)
-- [Qualcomm Visual Studio Code Extension Guide](https://docs.qualcomm.com/bundle/publicresource/topics/80-79972-1/getting_started.html)
-- [Projects/User Guide](https://docs.qualcomm.com/bundle/publicresource/topics/80-79972-1/user_guide.html)
-- [Edge Impulse Troubleshooting Guide](https://docs.edgeimpulse.com/docs/troubleshooting)
 
 ---
