@@ -6,7 +6,7 @@ Explore. Build. Innovate.
 Select your path below to access tutorials,demos and unleash everything RUBIK Pi can do.
 
 >> 💡 **New to RUBIK Pi?**  
->> Start with [**Run Sample Applications**](../Run-sample-applications)  for instant demos—no setup needed.
+>> Start with [**Run Sample Applications**](./Run-sample-applications)  for instant demos—no setup needed.
 ---
 
 ```mermaid
@@ -62,8 +62,6 @@ graph TD
     G -->|Collaborate| G1["Debug with IntelliSense
     Remote dev setup
     Collaborate via Git"]
-
-
     
     classDef titleStyle fill:transparent,stroke:transparent,font-size:20px
     classDef rectStyle fill:#e3f2fd,stroke:#64b5f6,stroke-width:2px,color:#0d47a1
@@ -73,7 +71,7 @@ graph TD
 
     click C "./litert-opencv-workflow" "_self";
     click D "./Edge-Impulse" "_self";
-    click E "../Robot-development" "_self";
+    click E "./Robot-development" "_self";
     click F "./Run-sample-applications" "_self";
     click G "https://docs.qualcomm.com/bundle/publicresource/topics/80-79972-1/getting_started.html" "_self";
 ```
