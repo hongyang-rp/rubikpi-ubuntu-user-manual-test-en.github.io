@@ -28,14 +28,14 @@ graph TD
     ****Best for: Custom models****
     *(click to open)*"]:::rectStyle
 
-    B -->|Robotics| E["🔗**Robot Development**
-    ROS & sensor integration
-    ****Best for: Robotics projects****
-    *(click to open)*"]:::rectStyle
-
-    B -->|AI Optimization| F["🔗**IMSDK-TFLite-AIMET**
+    B -->|AI Optimization| E["🔗**IMSDK-TFLite-AIMET**
     Python/C AI development
     ****Best for: Performance apps****
+    *(click to open)*"]:::rectStyle
+
+    B -->|Robotics| F["🔗**Robot Development**
+    ROS & sensor integration
+    ****Best for: Robotics projects****
     *(click to open)*"]:::rectStyle
 
     B -->|Dev Setup| G["🔗**VSCode IDE Setup**
@@ -51,13 +51,13 @@ graph TD
     Rapid prototyping
     No ML expertise needed"]
 
-    E -->|Build & Test| E1["Build robotics
-    Integrate sensors
-    Develop with ROS/ROS2"]
-
-    F -->|Accelerate| F1["Optimize AI apps
+    F -->|Accelerate| E1["Optimize AI apps
     Use QIMP SDK + AIMET
     Accelerate with TFLite"]
+
+    E -->|Build & Test| F1["Build robotics
+    Integrate sensors
+    Develop with ROS/ROS2"]
 
     G -->|Collaborate| G1["Debug with IntelliSense
     Remote dev setup
@@ -69,10 +69,11 @@ graph TD
     class C,D,E,F,G pathNodes
     class C1,D1,E1,F1,G1 detailNodes
 
-    click C "./litert-opencv-workflow" "_self";
+    click C "./Run-sample-applications" "_self";
     click D "./Edge-Impulse" "_self";
-    click E "./Robot-development" "_self";
-    click F "./Run-sample-applications" "_self";
+    click E "./modify-IMSDK-sample-applications" "_self";
+    click F "./Robot-development" "_self";
+ 
     click G "https://docs.qualcomm.com/bundle/publicresource/topics/80-79972-1/getting_started.html" "_self";
 ```
 
@@ -89,7 +90,8 @@ Explore instant demos—computer vision, audio, and sensors—optimized for Qual
 - Performance benchmarking
 
 > **📖 Key Documentation:**  
-> - [Sample Applications section](https://docs.qualcomm.com/bundle/publicresource/topics/80-70018-50/overview.html)
+> - [Run Sample Applications](./Run-sample-applications) 
+> - [Qualcomm Sample Applications](https://docs.qualcomm.com/bundle/publicresource/topics/80-70018-50/overview.html)
 
 **Best for:** First-timers, demo days, speed tests
 
