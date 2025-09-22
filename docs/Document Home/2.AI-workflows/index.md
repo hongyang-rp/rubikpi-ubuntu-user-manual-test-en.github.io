@@ -5,9 +5,9 @@
 Explore. Build. Innovate.  
 Select your path below to access tutorials,demos and unleash everything RUBIK Pi can do.
 
->> 💡 **New to RUBIK Pi?**  
->> Start with [**Run Sample Applications**](./Run-sample-applications)  for instant demos—no setup needed.
----
+:::note[New to RUBIK Pi?]  
+Start with [**Run Sample Applications**](./Run-sample-applications)  for instant demos—no setup needed.
+:::
 
 ```mermaid
 ---
@@ -81,19 +81,21 @@ graph TD
 
 ## 🚀 **Run Sample Applications**
 
-Curious about RUBIK Pi’s capabilities?
-Explore instant demos—computer vision, audio, and sensors—optimized for Qualcomm hardware. No setup required; get started right away.
+Ready to see RUBIK Pi in action?
+Jump straight into hands-on AI demos—no setup, no stress. Whether you're into computer vision, audio tricks, or sensor magic, these preloaded experiences are built to impress and optimized for Qualcomm hardware.
 
 **Includes:**  
 - GStreamer-based AI demos  
 - Object detection & classification  
 - Performance benchmarking
 
-> **📖 Key Documentation:**  
-> - [Run Sample Applications](./Run-sample-applications) 
-> - [Qualcomm Sample Applications](https://docs.qualcomm.com/bundle/publicresource/topics/80-70018-50/overview.html)
+:::note[**Key Docs to Dive Deeper**]   
+- [Run Sample Applications](./Run-sample-applications) 
+- [Qualcomm Sample Applications](https://docs.qualcomm.com/bundle/publicresource/topics/80-70018-50/overview.html)
+:::
 
-**Best for:** First-timers, demo days, speed tests
+**Perfect for:** First-timers, demo day heroes, and anyone who loves fast results with zero fuss.
+👉 Let’s get started!
 
 ---
 
