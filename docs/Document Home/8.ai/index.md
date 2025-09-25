@@ -14,7 +14,7 @@ This chapter introduces how to use the Qualcomm AI Runtime SDK. The SDK enables 
 
 The AI/ML development process for RUBIK Pi 3 Ubuntu is as follows:
 
-![](images/diagram-17.jpg)
+![](../images/diagram-17.jpg)
 
 The above AI/ML developer workflow consists of two steps:
 
@@ -33,7 +33,7 @@ Build an application to use the optimized model to run on device inference
 
 ### Overall AI framework
 
-![](images/image-13.png)
+![](../images/image-13.png)
 
 Developers can import models from ONNX, PyTorch, TensorFlow or TFLite, and use the Qualcomm AI Runtime SDK to efficiently run these models on the AI hardware of the RUBIK Pi 3, including the HTP (NPU), GPU, and CPU.
 
@@ -74,7 +74,7 @@ This is an open-source library to optimize (compressing and quantizing) trained 
 
 ## Compile and optimize the model
 
-![](images/diagram-1.jpg)
+![](../images/diagram-1.jpg)
 
 Use either of the following two ways to compile and optimize your models:
 
@@ -88,7 +88,7 @@ Use either of the following two ways to compile and optimize your models:
 
 AI Hub provides a way to optimize, validate, and deploy machine learning models on-device for vision, audio, and speech use cases.
 
-![](images/diagram-2.jpg)
+![](../images/diagram-2.jpg)
 
 #### Environment setup
 
@@ -144,7 +144,7 @@ AI Hub provides a way to optimize, validate, and deploy machine learning models 
 
    The following results indicate that the AI Hub Python client was installed successfully:
 
-   ![](images/img_v3_02oe_a7351608-c493-478b-a3e4-4929e3b3c17g.png)
+   ![](../images/img_v3_02oe_a7351608-c493-478b-a3e4-4929e3b3c17g.png)
 
 #### AI Hub workflow
 
@@ -177,7 +177,7 @@ AI Hub provides a way to optimize, validate, and deploy machine learning models 
 
 ### LiteRT
 
-![](images/diagram-3.jpg)
+![](../images/diagram-3.jpg)
 
 LiteRT is an open-source deep learning framework for on-device inference. LiteRT helps you run your models on mobile, embedded, and edge platforms by optimizing the model for latency, model size, power consumption, etc. RUBIK Pi supports executing TFLite models natively through TFLite Delegates as listed below.
 
@@ -196,7 +196,7 @@ The Qualcomm IM SDK provides the development environment with upstream and Qualc
 
 The following diagram shows the Qualcomm IM SDK framework:
 
-![](images/image.png)
+![](../images/image.png)
 
 #### Functions of commonly used Qualcomm [GStreamer](https://gstreamer.freedesktop.org/) plugins in the Qualcomm IM SDK
 
@@ -218,7 +218,7 @@ The following diagram shows the Qualcomm IM SDK framework:
 
 1. Install the software package.
 
-   Refer to the [Run sample applications](3.run-sample-applications.md) chapter and ensure that the sample application can run successfully.
+   Refer to the [Run sample applications](../3.run-sample-applications.md) chapter and ensure that the sample application can run successfully.
    
 2. Download the compressed package containing the model file, label file, and JSON configuration file required for the AI/ML sample application.
 
@@ -252,7 +252,7 @@ The gst-ai-classification application allows you to identify the subject in an i
 
 The following figure shows the pipeline, which receives a video stream from a camera, file source, or Real-Time Streaming Protocol (RTSP), preprocesses it, runs the inference on AI hardware, and displays the results on the screen.
 
-![](images/image-12.png)
+![](../images/image-12.png)
 
 * JSON configuration file used by the sample application：*/etc/configs/config\_classification.json*
 
@@ -303,15 +303,15 @@ gst-ai-classification --config-file=/etc/configs/config_classification.json
 
 * The result is shown below:
 
-![](images/image-11.png)
+![](../images/image-11.png)
 
 ### Object detection sample application: gst-ai-object-detection
 
-The gst-ai-object-detection application allows you to detect objects within images and videos.
+The gst-ai-object-detection application allows you to detect objects within ../images and videos.
 
 The following figure shows the pipeline, which receives the input from a live camera feed, file, or an RTSP stream, preprocesses it, runs inferences on AI hardware, and displays the results on the screen.
 
-![](images/image-10.png)
+![](../images/image-10.png)
 
 * JSON configuration file used by the sample application: */etc/configs/config\_detection.json*
 
@@ -364,7 +364,7 @@ gst-ai-object-detection --config-file=/etc/configs/config_detection.json
 
 * The result is shown below:
 
-![](images/diagram-29.png)
+![](../images/diagram-29.png)
 
 ### Pose detection sample application: gst-ai-pose-detection
 
@@ -372,7 +372,7 @@ The gst-ai-pose-detection application allows you to detect the body pose of the 
 
 The figure shows the pipeline, which receives the input from a live camera feed, file, or an RTSP stream, performs preprocessing, conducts inference on the AI hardware, and displays the results on the screen.
 
-![](images/image-8.png)
+![](../images/image-8.png)
 
 * JSON configuration file used by the sample application: */etc/configs/config\_pose.json*
 
@@ -425,7 +425,7 @@ gst-ai-pose-detection  --config-file=/etc/configs/config_pose.json
 
 * The result is shown below:
 
-![](images/image-7.png)
+![](../images/image-7.png)
 
 ### Image segmentation sample application: gst-ai-segmentation
 
@@ -433,7 +433,7 @@ The gst-ai-segmentation application allows you to divide an image into different
 
 The figure shows the pipeline, which receives the input from a live camera feed, file, or an RTSP stream, performs preprocessing, conducts inference on the AI hardware, and displays the results on the screen.
 
-![](images/image-6.png)
+![](../images/image-6.png)
 
 * JSON configuration file used by the sample application: */etc/configs/config\_segmentation.json*
 
@@ -482,7 +482,7 @@ gst-ai-segmentation  --config-file=/etc/configs/config_segmentation.json
 
 * The result is shown below:
 
-![](images/image-5.png)
+![](../images/image-5.png)
 
 ### Multi input/output object detection sample application: gst-ai-multi-input-output-object-detection
 
@@ -490,7 +490,7 @@ The gst-ai-multi-input-output-object-detection application allows you to perform
 
 The figure shows the pipeline, which receives the input from a live camera feed, file, or an RTSP stream, performs preprocessing, conducts inference on the AI hardware, and displays the results on the screen.
 
-![](images/image-4.png)
+![](../images/image-4.png)
 
 * Execute the following commands to run the sample application:
 
@@ -507,7 +507,7 @@ The current command demonstrates a use case where video streams from two cameras
 
 * The result is shown below:
 
-![](images/image-2.png)
+![](../images/image-2.png)
 
 ### Object detection and image classification cascade sample application：gst-ai-daisychain-detection-classification
 
@@ -516,10 +516,10 @@ The gst-ai-daisychain-detection-classification sample application can perform ca
 The figure shows the pipeline, which receives the input from a live camera feed, file, or other sources, performs preprocessing, conducts inference on the AI hardware, and displays the detection and classification results on the screen.
 
 *Figure: gst-ai-daisychain-detection-classification send pipeline*
-![](images/image-1.png)
+![](../images/image-1.png)
 
 *Figure: gst-ai-daisychain-detection-classification inference pipeline*
-![](images/image-3.png)
+![](../images/image-3.png)
 
 
 * JSON configuration file used by the sample application: */etc/configs/config\_daisychain\_detection\_classification.json*
@@ -571,7 +571,7 @@ gst-ai-daisychain-detection-classification   --config-file=/etc/configs/config_d
 
 * The result is shown below:
 
-![](images/image-26.png)
+![](../images/image-26.png)
 
 ### Image depth estimation sample application: gst-ai-monodepth
 
@@ -579,7 +579,7 @@ The gst-ai-monodepth sample application can acquire visual data from three types
 
 The diagram below shows the workflow of the sample application.
 
-![](images/image-25.png)
+![](../images/image-25.png)
 
 * JSON configuration file used by the sample application: */etc/configs/config\_monodepth.json*
 
@@ -630,7 +630,7 @@ gst-ai-classification --config-file=/etc/configs/config_monodepth.json
 
 * The result is shown below:
 
-![](images/image-24.png)
+![](../images/image-24.png)
 
 ## AI/ML gstreamer command-line use cases
 
@@ -640,7 +640,7 @@ The AI/ML GStreamer command line use cases demonstrate the practical scenario of
 
 1. Install the software package.
 
-   Refer to the [Run sample applications](3.run-sample-applications.md) chapter and ensure that the sample application can run successfully.
+   Refer to the [Run sample applications](../3.run-sample-applications.md) chapter and ensure that the sample application can run successfully.
 
 2. Download the model file and label file.
 
@@ -681,9 +681,9 @@ The AI/ML GStreamer command line use cases demonstrate the practical scenario of
 
 ##### Image classification (image-classification-LiteRT-from-camera)
 
-This sample application uses a camera to capture images in real time and sends them to LiteRT, which performs inference using the resnet101-resnet101-w8a8.tflite model with HTP. The classification results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
+This sample application uses a camera to capture ../images in real time and sends them to LiteRT, which performs inference using the resnet101-resnet101-w8a8.tflite model with HTP. The classification results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/image-23.png)
+![](../images/image-23.png)
 
 * Execute the following commands to run the sample application:
 
@@ -695,13 +695,13 @@ gst-launch-1.0 -e --gst-debug=1 qtiqmmfsrc name=camsrc camera=0  ! video/x-raw,f
 
 * The result is shown below:
 
-![](images/img_v3_02oe_fa932acb-c7ad-4586-b169-ab0589ff40dg-1.jpg)
+![](../images/img_v3_02oe_fa932acb-c7ad-4586-b169-ab0589ff40dg-1.jpg)
 
 ##### Object detection (object-detection-LiteRT-from-camera)
 
-This sample application uses a camera to capture images in real time and sends them to LiteRT, which performs inference using the yolov8_det_quantized.tflite model with HTP. The object detection results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
+This sample application uses a camera to capture ../images in real time and sends them to LiteRT, which performs inference using the yolov8_det_quantized.tflite model with HTP. The object detection results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/image-22.png)
+![](../images/image-22.png)
 
 * Execute the following commands to run the sample application:
 
@@ -713,13 +713,13 @@ gst-launch-1.0 -e --gst-debug=1 qtiqmmfsrc name=camsrc camera=0 ! video/x-raw,fo
 
 * The result is shown below:
 
-![](images/image-21.png)
+![](../images/image-21.png)
 
 ##### Image segmentation (image-segmentation-LiteRT-from-camera)
 
-This sample application uses a camera to capture images in real time and sends them to LiteRT, which performs inference using the deeplabv3_plus_mobilenet_quantized.tflite model with HTP. The segmentation results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
+This sample application uses a camera to capture ../images in real time and sends them to LiteRT, which performs inference using the deeplabv3_plus_mobilenet_quantized.tflite model with HTP. The segmentation results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/image-20.png)
+![](../images/image-20.png)
 
 * Execute the following commands to run the sample application:
 
@@ -731,13 +731,13 @@ gst-launch-1.0 -e --gst-debug=1 qtiqmmfsrc name=camsrc camera=0 ! video/x-raw,fo
 
 * The result is shown below:
 
-![](images/image-19.png)
+![](../images/image-19.png)
 
 ##### Pose detection (pose-detection-LiteRT-from-camera)
 
-This sample application uses a camera to capture images in real time and sends them to LiteRT, which performs inference using the hrnet_pose_quantized.tflite model with HTP. The pose detection results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
+This sample application uses a camera to capture ../images in real time and sends them to LiteRT, which performs inference using the hrnet_pose_quantized.tflite model with HTP. The pose detection results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/image-18.png)
+![](../images/image-18.png)
 
 * Execute the following commands to run the sample application:
 
@@ -749,7 +749,7 @@ gst-launch-1.0 -e --gst-debug=1 qtiqmmfsrc name=camsrc camera=0 ! video/x-raw,fo
 
 * The result is shown below:
 
-![](images/image-17.png)
+![](../images/image-17.png)
 
 #### GStreamer command-line use cases for implementing AI functionality by acquiring image data from a recorded MP4 file
 
@@ -757,7 +757,7 @@ gst-launch-1.0 -e --gst-debug=1 qtiqmmfsrc name=camsrc camera=0 ! video/x-raw,fo
 
 This sample application uses an MP4 file to obtain image data and sends it to LiteRT, which performs inference using the resnet101-resnet101-w8a8.tflite model with HTP. The classification results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/diagram-4.png)
+![](../images/diagram-4.png)
 
 * Execute the following commands to run the sample application:
 
@@ -769,13 +769,13 @@ gst-launch-1.0 -v --gst-debug=2 filesrc location=/opt/Draw_1080p_180s_30FPS.mp4 
 
 * The result is shown below:
 
-![](images/img_v3_02oe_fa932acb-c7ad-4586-b169-ab0589ff40dg.jpg)
+![](../images/img_v3_02oe_fa932acb-c7ad-4586-b169-ab0589ff40dg.jpg)
 
 ##### Object detection (object-detection-LiteRT-from-file)
 
 This sample application uses an MP4 file to obtain image data and sends it to LiteRT, which performs inference using the yolov8_det_quantized.tflite model with HTP. The object detection results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/diagram-5.png)
+![](../images/diagram-5.png)
 
 * Execute the following commands to run the sample application:
 
@@ -787,13 +787,13 @@ gst-launch-1.0 -v --gst-debug=2 filesrc location=/opt/Draw_1080p_180s_30FPS.mp4 
 
 * The result is shown below:
 
-![](images/image-16.png)
+![](../images/image-16.png)
 
 ##### Image segmentation (image-segmentation-LiteRT-from-file)
 
 This sample application uses an MP4 file to obtain image data and sends it to LiteRT, which performs inference using the deeplabv3_plus_mobilenet_quantized.tflite model with HTP. The segmentation results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/diagram-6.png)
+![](../images/diagram-6.png)
 
 * Execute the following commands to run the sample application:
 
@@ -805,13 +805,13 @@ gst-launch-1.0 -v --gst-debug=2 filesrc location=/opt/Draw_1080p_180s_30FPS.mp4 
 
 * The result is shown below:
 
-![](images/image-14.png)
+![](../images/image-14.png)
 
 ##### Pose detection (pose-detection-LiteRT-from-file)
 
 This sample application uses an MP4 file to obtain image data and sends it to LiteRT, which performs inference using the hrnet_pose_quantized.tflite model with HTP. The pose detection results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/diagram-7.png)
+![](../images/diagram-7.png)
 
 * Execute the following commands to run the sample application:
 
@@ -823,7 +823,7 @@ gst-launch-1.0 -v --gst-debug=2 filesrc location=/opt/Draw_1080p_180s_30FPS.mp4 
 
 * The result is shown below:
 
-![](images/image-15.png)
+![](../images/image-15.png)
 
 ### GStreamer command-line use cases using SNPE
 
@@ -831,9 +831,9 @@ gst-launch-1.0 -v --gst-debug=2 filesrc location=/opt/Draw_1080p_180s_30FPS.mp4 
 
 ##### Image classification (image-classification-LiteRT-from-camera)
 
-This sample application uses a camera to capture images in real time and sends them to SNPE, which performs inference using the inceptionv3.dlc model with HTP. The classification results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
+This sample application uses a camera to capture ../images in real time and sends them to SNPE, which performs inference using the inceptionv3.dlc model with HTP. The classification results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/diagram-8.png)
+![](../images/diagram-8.png)
 
 * Execute the following commands to run the sample application:
 
@@ -845,13 +845,13 @@ gst-launch-1.0 -e --gst-debug=1 qtiqmmfsrc name=camsrc camera=0 ! video/x-raw,fo
 
 * The result is shown below:
 
-![](images/img_v3_02oe_fa932acb-c7ad-4586-b169-ab0589ff40dg-3.jpg)
+![](../images/img_v3_02oe_fa932acb-c7ad-4586-b169-ab0589ff40dg-3.jpg)
 
 ##### Object detection (object-detection-LiteRT-from-camera)
 
-This sample application uses a camera to capture images in real time and sends them to SNPE, which performs inference using the yolonas.labels model with HTP. The object detection results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
+This sample application uses a camera to capture ../images in real time and sends them to SNPE, which performs inference using the yolonas.labels model with HTP. The object detection results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/diagram-9.png)
+![](../images/diagram-9.png)
 
 * Execute the following commands to run the sample application:
 
@@ -863,7 +863,7 @@ gst-launch-1.0 -e --gst-debug=1 qtiqmmfsrc name=camsrc camera=0 ! video/x-raw,fo
 
 * The result is shown below:
 
-![](images/image-27.png)
+![](../images/image-27.png)
 
 #### GStreamer command-line use cases for implementing AI functionality by acquiring image data from a recorded MP4 file
 
@@ -871,7 +871,7 @@ gst-launch-1.0 -e --gst-debug=1 qtiqmmfsrc name=camsrc camera=0 ! video/x-raw,fo
 
 This sample application uses an MP4 file to obtain image data and sends it to SNPE, which performs inference using the inceptionv3.dlc model with HTP. The classification results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/diagram-10.png)
+![](../images/diagram-10.png)
 
 * Execute the following commands to run the sample application:
 
@@ -883,13 +883,13 @@ gst-launch-1.0 -e filesrc location=/opt/Draw_1080p_180s_30FPS.mp4 ! qtdemux ! qu
 
 * The result is shown below:
 
-![](images/img_v3_02oe_fa932acb-c7ad-4586-b169-ab0589ff40dg-2.jpg)
+![](../images/img_v3_02oe_fa932acb-c7ad-4586-b169-ab0589ff40dg-2.jpg)
 
 ##### Object detection (object-detection-LiteRT-from-file)
 
 This sample application uses an MP4 file to obtain image data and sends it to SNPE, which performs inference using the yolonas.labels model with HTP. The object detection results and image information are then displayed on a monitor via Weston. Refer to the following diagram for the pipeline.
 
-![](images/diagram-11.png)
+![](../images/diagram-11.png)
 
 * Execute the following commands to run the sample application:
 
@@ -901,7 +901,7 @@ gst-launch-1.0 -e --gst-debug=2 filesrc location=/opt/Draw_1080p_180s_30FPS.mp4 
 
 * The result is shown below:
 
-![](images/image-28.png)
+![](../images/image-28.png)
 
 ## Refences
 
