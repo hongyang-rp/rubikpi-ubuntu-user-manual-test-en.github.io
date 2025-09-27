@@ -1,16 +1,25 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Get started with RUBIK Pi 3
+# Get started with RUBIK Pi 3  
 
-This quick start guide helps you set up your RUBIK Pi 3 to explore and use end-to-end multimedia and AI applications in an Ubuntu 24.04-based environment. Additionally, this guide provides instructions on how to establish communication with hosts running Linux, Windows(®), or macOS(®).
+The **RUBIK Pi 3**, powered by the **Qualcomm QCS6490** SoC, is engineered to deliver high-performance computing and seamless integration with modern development workflows. This guide walks you through setting up your board with **Canonical Ubuntu**, enabling you to explore and try out end-to-end AI and multimedia applications.      
 
-RUBIK Pi 3 is developed based on the Qualcomm QCS6490 processor, which features the Qualcomm® Kryo™ 670 CPU and the Qualcomm® Hexagon™ Processor with fused AI-accelerator architecture. The processor provides exceptional AI performance of 12 TOPS and offers the capability for various machine learning and AI application scenarios.
+At its core, the RUBIK Pi 3 features:  
+-- **Qualcomm® Kryo™ 670**  
+-- **Qualcomm® Hexagon™ Processor** with fused AI-accelerator architecture  
+-- **12 TOPS** of AI performance for real-time inference and machine learning workloads
 
-RUBIK Pi 3 is designed with a wide range of interfaces and functions, such as USB, camera, DisplayPort, HDMI, Ethernet, 3.5mm headphone jack, Wi-Fi, Bluetooth, M.2 connector, fan, RTC, and 40-pin LS connector. These features cater to diverse development needs while facilitating rapid development and efficient debugging.
+The RUBIK Pi 3 is designed with versatility in mind. It includes a wide array of interfaces:  
+-- **USB, Camera, DisplayPort, HDMI**  
+-- **Ethernet, 3.5mm headphone jack**  
+-- **Wi-Fi, Bluetooth**  
+-- **M.2 connector, Fan, RTC**  
+-- **40-pin LS connector**  
+These features support a broad spectrum of development scenarios, enabling fast prototyping and efficient debugging.    
 
-RUBIK Pi 3 is compatible with various systems, such as Qualcomm Linux, Debian 13, Android 13, and Canonical Ubuntu for Qualcomm Platforms, providing developers with the flexibility to meet their specific application needs.
 
+-----------
 ![](../images/image.jpg)
 
 ### Packaging
