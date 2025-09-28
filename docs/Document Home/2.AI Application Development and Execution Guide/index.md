@@ -1,19 +1,23 @@
-# Welcome
+# Application Development and Execution Guide
 
-Welcome to the AI docs for Qualcomm Dragonwing. Dragonwing is a family of IoT SoCs that offer high performance, advanced connectivity and efficient power - paired with fast GPUs and NPUs; and running a variety of operating systems (Ubuntu, Qualcomm Linux, Android and Windows). This makes them perfect for advanced edge AI workloads, or high-performance computer vision applications.  
+This guide walks through the full lifecycle of AI development using Qualcomm-supported tools, runtimes, and frameworks.  
+Whether you're training models, deploying pre-trained networks, or building multimodal AI workflows, this guide offers a modular, hands-on approach.  
+The document covers:  
+* Model creation with **Edge Impulse** and **Qualcomm AI Hub**  
+* Inference using **LiteRT, TensorFlow Lite, and ONNX Runtime**  
+* Local execution of large language models with **Llama.cpp**  
+* Workflow orchestration with **Genie**  
+* Sample applications using **IMSDK** and robotics SDKs 
 
-Artificial Intelligence is rapidly transforming how applications are built, deployed, and experienced—especially at the edge. This guide is designed to help developers, engineers, and program managers navigate the end-to-end journey of AI application development using Qualcomm-supported tools, runtimes, and frameworks.
-Whether you're building models from scratch, deploying pre-trained networks, or orchestrating multimodal AI workflows, this guide provides a structured approach to understanding and executing AI workloads across diverse environments. It covers everything from model creation using platforms like Edge Impulse and AI Hub, to running sample applications with LiteRT, ONNX, Llama.cpp, and Genie, and includes hands-on examples using IMSDK and robotics SDKs like QIRP.
-Each chapter is crafted to be modular, allowing you to dive into the tools and flows most relevant to your project. The goal is to empower you with practical insights, reusable samples, and a clear understanding of how to integrate AI into real-world applications—efficiently and effectively.
-Let’s get started.
+Each section is designed to be standalone, so you can jump directly into the tools and flows that match your project needs. The goal is to provide clear, reusable examples and practical insights for integrating AI into real-world edge applications.
 
 ## 📊 AI Development & Execution Flow Summary
 
 |Flow               |Purpose                                                                                               |Link         |
 |-------------------|------------------------------------------------------------------------------------------------------|-------------|
-|Edge Impulse       |Build and train AI models using sensor data and AutoML tools for edge devices.                        |[Add Link]   |
-| Qualcomm AI Hub   | Access pre-trained models optimized for Snapdragon platforms; supports deployment and benchmarking.  | [Add Link]  |
-| LiteRT/TFLite     | Run lightweight inference on embedded systems using minimal runtimes like LiteRT and TensorFlow Lite.| [Add Link]  |
-| ONNX              | Deploy interoperable models from various training frameworks using ONNX Runtime.                     | [Add Link]  |
+|Edge Impulse       |Build and train AI models using audio, image and other sensor data - or bringing your own model in a variety of formats.                       |[Add Link]   |
+| Qualcomm AI Hub   |Qualcomm® AI Hub simplifies deploying AI models for vision, audio, and speech applications to edge devices. You can optimize, validate, and deploy your own AI models on hosted Qualcomm platform devices within minutes.| [Add Link]  |
+| LiteRT/TFLite     |LiteRT enables high-performance, on-device AI by running quantized models (Python or C++) on both CPU and NPU of Dragonwing devices using AI Engine Direct delegates—all with minimal setup.| [Add Link]  |
+| ONNX              |ONNX enables cross-platform AI deployment by exporting models. On Dragonwing devices, ONNX Runtime with AI Engine Direct allows execution on the NPU for maximum performance.| [Add Link]  |
 | Llama.cpp         | Execute large language models locally using a C++ backend optimized for CPUs and quantized formats.  | [Add Link]  |
 | Genie             | Orchestrate AI microservices and multimodal workflows using Qualcomm’s generative AI runtime.        | [Add Link]  |
