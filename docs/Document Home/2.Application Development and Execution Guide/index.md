@@ -11,7 +11,7 @@ The document covers:
 
 Each section is designed to be standalone, so you can jump directly into the tools and flows that match your project needs. The goal is to provide clear, reusable examples and practical insights for integrating AI into real-world edge applications.
 
-## 📊 AI Development & Execution Flow Summary
+## 📊 Application Development & Execution Flow Summary
 
 |Flow               |Purpose                                                                                               |Link         |
 |-------------------|------------------------------------------------------------------------------------------------------|-------------|
