@@ -3,20 +3,19 @@ import TabItem from '@theme/TabItem';
 
 # Get started with RUBIK Pi 3  
 
-The **RUBIK Pi 3**, powered by the **Qualcomm QCS6490** SoC, is engineered to deliver high-performance computing and seamless integration with modern development workflows. This guide walks you through setting up your board with **Canonical Ubuntu**, enabling you to explore and try out end-to-end AI and multimedia applications.      
-
+The **RUBIK Pi 3**, powered by the **Qualcomm® QCS6490** SoC, is engineered for high-performance computing and seamless integration with modern development workflows. This guide walks you through setting up your board with **Canonical Ubuntu**, enabling you to explore and prototype end-to-end AI and multimedia applications.  
 At its core, the RUBIK Pi 3 features:  
 -- **Qualcomm® Kryo™ 670**  
 -- **Qualcomm® Hexagon™ Processor** with fused AI-accelerator architecture  
 -- **12 TOPS** of AI performance for real-time inference and machine learning workloads
 
-The RUBIK Pi 3 is designed with versatility in mind. It includes a wide array of interfaces:  
+Designed with versatility in mind, the RUBIK Pi 3 includes a wide array of interfaces:  
 -- **USB, Camera, DisplayPort, HDMI**  
 -- **Ethernet, 3.5mm headphone jack**  
 -- **Wi-Fi, Bluetooth**  
 -- **M.2 connector, Fan, RTC**  
 -- **40-pin LS connector**  
-These features support a broad spectrum of development scenarios, enabling fast prototyping and efficient debugging.    
+These features support a wide range of development scenarios, enabling rapid prototyping and efficient debugging.      
 
 
 -----------
