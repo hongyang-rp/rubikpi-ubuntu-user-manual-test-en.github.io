@@ -1,4 +1,4 @@
-# Qualcomm® IM SDK
+# Develop Custom Applications  
 
 The Qualcomm® Intelligent Multimedia SDK (IM SDK) is a set of GStreamer plugins that let you run computer vision operations on the GPU of your Dragonwing development board; and that can create AI pipelines that run fully on GPU and NPU, without ever having to yield back to the CPU (zero-copy). Together this makes it possible to achieve much higher throughput rates than when you implement AI CV pipelines yourself in e.g. OpenCV + TFLite.
 
