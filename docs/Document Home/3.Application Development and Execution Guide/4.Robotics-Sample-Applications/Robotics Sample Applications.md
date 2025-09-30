@@ -8,7 +8,7 @@ The Qualcomm® Intelligent Robotics (QIR) SDK for Ubuntu provides essential comp
 •	**QRB ROS Transport**: Enables zero-copy transport of ROS messages on Qualcomm robotics platforms.  
 
 :::note
- QRB ROS Transport is implemented based on REP 2007, which defines interfaces for serializing custom types and supports intra-process communication without conversion.
+ QRB ROS Transport is implemented based on [REP 2007](https://www.ros.org/reps/rep-2007.html), which defines interfaces for serializing custom types and supports intra-process communication without conversion.
 :::
 
 ## Getting Started with QIR SDK on Ubuntu
