@@ -7,7 +7,7 @@ This chapter offers a streamlined guide for developers to set up the **RUBIK Pi 
 It also covers essential procedures such as entering **EDL mode** for firmware flashing and verifying your **Ubuntu 24.04** installation—laying the foundation for AI, multimedia, and embedded development workflows.  
 
 ### 🏁 Let’s Get Started!
-![](.././images/Setup1.png)
+![](../images/Setup1.png)
 
 ## Power on the device
 
@@ -22,7 +22,7 @@ Plug in a USB Type-C to USB Type-A or a Type-C cable to establish connection for
 
 Board versions v02 and later support automatic power-on after the power adapter is connected. You can check the hardware version number at the following location on the board. In the example below, the hardware version is V02.
 
-![](.././images/20250728-124347.jpg)
+![](../images/20250728-124347.jpg)
 
 :::note
 If the blue LED on the board is constantly lit, it indicates that the power button was pressed for too long, and the board is in fastboot mode. Please refer to [**troubleshooting guide**](https://hongyang-rp.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/docs/Document%20Home/Troubleshooting/troubleshooting#how-do-i-exit-fastboot-mode-on-the-rubik-pi-3) to exit the fastboot mode. 
@@ -36,7 +36,7 @@ The debug UART displays diagnostic messages and provides access to the device vi
 
 1. Connect a Micro-USB cable to the Micro-USB port on your RUBIK Pi 3.
 
-![](.././images/20250701-180541.jpg)
+![](../images/20250701-180541.jpg)
 
 2. Connect the other end of the Micro-USB cable to the host.
    Follow one of the following instructions based on the host operating system.
@@ -100,7 +100,7 @@ Example: `sudo screen /dev/ttyACM0 115200`
    1. Set the baud rate to 115200.  
    2. Click **Open** to start the PuTTY session.  
 
-    ![](.././images/image-3.jpg)
+    ![](../images/image-3.jpg)
 
 5. Open the serial device and press **Enter** to bring up the authentication prompt.  
 6. Log in to the UART console and follow the prompts to reset the password.  
@@ -124,7 +124,7 @@ If you are unable to log in properly, check that your RUBIK Pi 3 has been upgrad
    ```
 2. Find your device in the list of serial devices.
 
-    ![](.././images/image-4.jpg)
+    ![](../images/image-4.jpg)
 
 3. Run the following command to open the serial device.
     ```shell
@@ -183,7 +183,7 @@ The device is running in Station mode for Wi-Fi. When the device boots up, it in
       nmcli -p device
       ```
 
-    ![](.././images/image-7.jpg)
+    ![](../images/image-7.jpg)
 
 3. Run the following command to verify the WLAN connection status and IP address.
 
@@ -191,7 +191,7 @@ The device is running in Station mode for Wi-Fi. When the device boots up, it in
     ip addr
      ```
 
-     ![](.././images/image-8.png)
+     ![](../images/image-8.jpg)
 
 4. To ensure the connection is active, perform a ping operation to a website such as that of RUBIK Pi:
 
@@ -203,7 +203,7 @@ The device is running in Station mode for Wi-Fi. When the device boots up, it in
 
 1. Connect one end of an Ethernet cable to the Ethernet port (RJ45) on your RUBIK Pi 3, and the other end to the network router.
 
-![](.././images/image-5.jpg)
+![](../images/image-5.jpg)
 
 2. After establishing the connection, run the following command on the UART serial console to obtain the IP address:
 
@@ -211,7 +211,7 @@ The device is running in Station mode for Wi-Fi. When the device boots up, it in
     ip addr
     ```
 
-    ![](.././images/image-6.jpg)
+    ![](../images/image-6.jpg)
   </TabItem>
 </Tabs>
 
@@ -251,11 +251,11 @@ To connect an HDMI display and view the Ubuntu 24.04 desktop environment along w
 1. Connect one end of the HDMI cable to the HDMI port on RUBIK Pi 3.  
 2. Connect the other end of the HDMI cable to the display.
 
-![](.././images/图片.jpg)
+![](../images/图片.jpg)
 
 3. Power on the device and check the HDMI display.
 
-![](.././images/20250814-171041.jpg) 
+![](../images/20250814-171041.jpg) 
 
 ## Enter into EDL mode
 **EDL Mode** is required to flash firmware and OS images directly to RubikPi 3 using Qualcomm's QDL tool.  
@@ -263,7 +263,7 @@ If the device is pre-flashed and fully provisioned, EDL mode can be skipped duri
 
 	<a id="enterEDL"></a>
 
-	![](.././images/image-18.jpg)
+	![](../images/image-18.jpg)
     
     
 	<Tabs>
@@ -271,15 +271,15 @@ If the device is pre-flashed and fully provisioned, EDL mode can be skipped duri
 
 	1. Press and hold the **[EDL]** button (No. 12 in the figure above).
 
-	![](.././images/image-19.jpg)
+	![](../images/image-19.jpg)
 
 	2. Connect the power supply into port 10, as shown in the figure below.
 
-	![](.././images/image-20.jpg)
+	![](../images/image-20.jpg)
 
 	3. Insert the Type-C cable into port 5 and wait three seconds to enter 9008 mode.
 
-	![](.././images/20250314-155547.jpg)
+	![](../images/20250314-155547.jpg)
    
 
 	</TabItem>
