@@ -25,7 +25,7 @@ Board versions v02 and later support automatic power-on after the power adapter 
 ![](../../images/20250728-124347.jpg)
 
 :::note
-If the blue LED on the board is constantly lit, it indicates that the power button was pressed for too long, and the board is in fastboot mode. Please refer to [**troubleshooting guide**](https://hongyang-rp.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/docs/Document%20Home/Troubleshooting/troubleshooting#how-do-i-exit-fastboot-mode-on-the-rubik-pi-3) to exit the fastboot mode. 
+If the blue LED on the board is constantly lit, it indicates that the power button was pressed for too long, and the board is in fastboot mode. Please refer to [**troubleshooting guide**](../../11.Troubleshooting/13.troubleshooting.md#how-do-i-exit-fastboot-mode-on-the-rubik-pi-3) to exit the fastboot mode. 
 :::
 
 
@@ -73,7 +73,7 @@ Example: `sudo screen /dev/ttyACM0 115200`
     * Password: `ubuntu`
 
 :::tip
- If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](1.update-software.md).
+ If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](../2.upgrade-ubuntu.md).
 :::
 
 :::tip
@@ -109,7 +109,7 @@ Example: `sudo screen /dev/ttyACM0 115200`
     * Password: `ubuntu`  
 
 :::tip
-If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](1.update-software.md).
+If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](../2.upgrade-ubuntu.md).
 :::
 
 :::tip
@@ -143,7 +143,7 @@ Sample command: `ceteam@Qualcomms-MacBook-Pro ~ % screen /dev/cu.usbserial-DM03S
     * Password: `ubuntu`
 
 :::tip
- If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](1.update-software.md).
+ If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](../2.upgrade-ubuntu.md).
 :::
 
 :::tip  

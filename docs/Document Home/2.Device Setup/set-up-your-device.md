@@ -9,6 +9,7 @@ It also covers essential procedures such as entering **EDL mode** for firmware f
 ### 🏁 Let’s Get Started!
 ![](.././images/Setup1.png)
 
+<a id="poweron"></a>
 ## Power on the device
 
  Connect a 12V, 3A Type-C power adapter.  
@@ -25,7 +26,7 @@ Board versions v02 and later support automatic power-on after the power adapter 
 ![](./images/20250701-180541.jpg)
 
 :::note
-If the blue LED on the board is constantly lit, it indicates that the power button was pressed for too long, and the board is in fastboot mode. Please refer to [**troubleshooting guide**](https://hongyang-rp.github.io/rubikpi-ubuntu-user-manual-test-en.github.io/docs/Document%20Home/Troubleshooting/troubleshooting#how-do-i-exit-fastboot-mode-on-the-rubik-pi-3) to exit the fastboot mode. 
+If the blue LED on the board is constantly lit, it indicates that the power button was pressed for too long, and the board is in fastboot mode. Please refer to [**troubleshooting guide**](../11.Troubleshooting/13.troubleshooting.md#how-do-i-exit-fastboot-mode-on-the-rubik-pi-3) to exit the fastboot mode. 
 :::
 
 
