@@ -23,7 +23,7 @@ Plug in a USB Type-C to USB Type-A or a Type-C cable to establish connection for
 
 Board versions v02 and later support automatic power-on after the power adapter is connected. You can check the hardware version number at the following location on the board. In the example below, the hardware version is V02.
 
-![](./images/20250701-180541.jpg)
+![](./images/20250728-124347.jpg)
 
 :::note
 If the blue LED on the board is constantly lit, it indicates that the power button was pressed for too long, and the board is in fastboot mode. Please refer to [**troubleshooting guide**](../11.Troubleshooting/13.troubleshooting.md#how-do-i-exit-fastboot-mode-on-the-rubik-pi-3) to exit the fastboot mode. 
