@@ -1,0 +1,11 @@
+diff a/docs/Document Home/4.peripherals-and-interfaces/_category_.json b/docs/Document Home/4.peripherals-and-interfaces/_category_.json	(rejected hunks)
+@@ -1,7 +1,7 @@
+ {
+   "label": "Peripherals and Interfaces",
+-  "position": 10  ,
+-  "collapsed": true,
++  "position": 4  ,
++  "collapsed": false,
+   "link": {
+     "type": "doc",
+     "id": "index"

@@ -1,6 +1,6 @@
 {
-  "label": "Device Setup",
-  "position": 1,
+  "label": "Update Software",
+  "position": 3,
   "collapsed": false,
   "link": {
     "type": "generated-index"
