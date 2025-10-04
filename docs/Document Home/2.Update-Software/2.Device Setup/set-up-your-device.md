@@ -73,7 +73,7 @@ Example: `sudo screen /dev/ttyACM0 115200`
     * Password: `ubuntu`
 
 :::tip
- If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](../2.upgrade-ubuntu.md).
+ If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](../../3.Update-Software/3.1.upgrade-ubuntu.md).
 :::
 
 :::tip
@@ -109,7 +109,7 @@ Example: `sudo screen /dev/ttyACM0 115200`
     * Password: `ubuntu`  
 
 :::tip
-If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](../2.upgrade-ubuntu.md).
+If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](../../3.Update-Software/3.1.upgrade-ubuntu.md).
 :::
 
 :::tip
@@ -143,7 +143,7 @@ Sample command: `ceteam@Qualcomms-MacBook-Pro ~ % screen /dev/cu.usbserial-DM03S
     * Password: `ubuntu`
 
 :::tip
- If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](../2.upgrade-ubuntu.md).
+ If you are unable to log in properly, check that your RUBIK Pi 3 has been upgraded to the Ubuntu 24.04. For detailed upgrade steps, refer to [Update software](../../3.Update-Software/3.1.upgrade-ubuntu.md).
 :::
 
 :::tip  
