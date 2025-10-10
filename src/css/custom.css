@@ -29,6 +29,27 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.unique-tabs {
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 10px; /* Adds 10px of whitespace around each tab */
+  font-size: 1.2em; /* Increase font size for the tabs */
+}
+
+/* Styles for active tab */
+.unique-tabs .tabs__item--active {
+  background-color: var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary-dark);
+  color: white; /* White letters for active tab */
+}
+
+/* Styles for inactive tabs */
+.unique-tabs .tabs__item:not(.tabs__item--active) {
+  background-color: transparent; /* No background for inactive tabs */
+  border: 1px solid transparent; /* No border for inactive tabs */
+  color: var(--ifm-font-color-base); /* Base text color for inactive tabs (assuming this variable exists or can be defined) */
+}
+
 
 /* Mermaid diagram styling */
 .mermaid {
@@ -40,4 +61,3 @@
   max-width: 100%;
   height: auto;
 }
-

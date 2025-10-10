@@ -11,6 +11,16 @@ The Qualcomm® Intelligent Robotics (QIR) SDK for Ubuntu provides essential comp
  QRB ROS Transport is implemented based on [REP 2007](https://www.ros.org/reps/rep-2007.html), which defines interfaces for serializing custom types and supports intra-process communication without conversion.
 :::
 
+**Prerequisites**   
+* **Ubuntu OS** should be flashed  
+* **Terminal access** with appropriate permissions    
+* Run **install_ppa_pkgs.sh** script to install necessary packages 
+	```shell
+	git clone -b ubuntu_setup --single-branch https://github.com/rubikpi-ai/rubikpi-script.git 
+	cd rubikpi-script  
+	./install_ppa_pkgs.sh 
+	```
+
 ## Getting Started with QIR SDK on Ubuntu
 This guide walks you through using QIR sample applications on development kits running Ubuntu.
 
