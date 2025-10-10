@@ -4,7 +4,7 @@
 
 This chapter provides an overview of the peripherals and interfaces available on RUBIK Pi 3
 
-Through this section, you will learn about the various hardware interface usage methods on the RUBIK Pi, we well as general troubleshooting methods. For most funtions, you can run them directly with GUI-based apps in the desktop system.
+In this section, you'll explore various methods for using hardware interfaces on the RUBIK Pi 3, along with general troubleshooting techniques. Most functions can be accessed directly through GUI-based applications on the desktop system.
 
 ## Hardware resource diagram
 
